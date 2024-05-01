@@ -1,0 +1,1 @@
+<!--Ennek a fájlnak az a feladata, hogy a createNewStorageForm-mal bekért adatokat ellenőrizze és beletegye őket egy-egy változóba.-->

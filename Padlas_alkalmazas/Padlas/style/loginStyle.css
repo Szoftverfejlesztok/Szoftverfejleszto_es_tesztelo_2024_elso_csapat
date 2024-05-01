@@ -1,0 +1,56 @@
+body{
+    background-image: url(../img/background.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo img {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.container-login{
+    background-color: rgba(194, 11, 179, 0.418);
+    padding: 15px;
+    border-radius: 70px;
+}
+
+.content {
+    padding: 0px 0px 50px; 
+}
+
+.input{
+    
+    width: calc(100% - 30px);
+    height: 60px;
+    padding: 0 15px;
+    font-size: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 80px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.973); 
+    border-radius: 60px;      /*a gombok széleit itt kerekitem*/
+    padding: 10px 20px; 
+    color: rgb(194, 11, 179); 
+    border: none; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: rgba(194, 11, 179, 0.897); 
+}
+
+button:active {
+    background-color: rgba(194, 11, 179, 0.897); 
+    box-shadow: 0 5px #666666; 
+  
+}

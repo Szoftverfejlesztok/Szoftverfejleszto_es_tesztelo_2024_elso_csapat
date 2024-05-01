@@ -1,0 +1,10 @@
+footer { /*lábléc*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(194, 11, 179, 0.555);
+    color: rgb(235, 228, 234);
+    text-align: center;
+    padding: 20px 0;
+    height: 7%;}

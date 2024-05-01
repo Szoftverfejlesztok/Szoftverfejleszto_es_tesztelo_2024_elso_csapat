@@ -1,0 +1,39 @@
+nav{
+    background-color: rgba(194, 11, 179, 0.897);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+}
+
+nav ul {
+    border: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    border: none;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    border: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: rgba(194, 11, 179, 0.897);
+    padding: 10px;
+    top: 100%;
+    left: 0;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}

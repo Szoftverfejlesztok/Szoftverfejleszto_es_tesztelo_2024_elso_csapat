@@ -1,0 +1,228 @@
+body {
+    background-image: url(../img/background.jpg); /* háttérkép*/
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-login {
+    background-color: rgba(194, 11, 179, 0.418);
+    padding: 30px;
+    border-radius: 70px; /* kerekített sarkok */
+}
+
+.content {
+    padding: 0px 0px 50px; /* tartalom térközei */
+}
+
+.input { /* bemeneti mezők */
+    width: calc(100% - 30px);
+    height: 60px;
+    padding: 0 15px;
+    font-size: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 80px;
+    margin-bottom: 20px;
+}
+
+.btn { /* gombok */
+    background-color: rgba(255, 255, 255, 0.973);
+    border-radius: 60px;
+    padding: 10px 20px;
+    color: rgb(194, 11, 179);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(194, 11, 179, 0.897);
+}
+
+.btn:active { /* a gomb aktív állapotának színe és árnyéka */
+    background-color: rgba(194, 11, 179, 0.897);
+    box-shadow: 0 5px #666666;
+}
+
+.mainpagetext {
+    color: rgba(252, 252, 252, 0.979);;
+    text-align: center;
+}
+
+.p-3 {
+    padding: 15px;
+}
+
+/* A regisztrációs űrlap stílusai */
+.registration-form {
+    max-width: 400px;
+    margin: 4px 2px;
+    text-align: center; 
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.973);;
+    padding: 10px 20px;   
+    border-radius: 10px;
+    cursor: pointer; 
+    box-shadow: 0 0 20px 0 rgba(194, 11, 179, 0.897);  /* árnyék az űrlapnál */
+}
+
+.registration-form h2 {     /* regisztrációs űrlap cím rész */
+    background-color: rgba(194, 11, 179, 0.897);
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.973);;
+    text-align: center;
+}
+
+/* beviteli mező*/
+.registration-form input[type="text"],
+.registration-form input[type="password"],
+.registration-form input[type="email"] {
+    background-color: rgba(194, 11, 179, 0.897);
+    color: rgb(158, 151, 157);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.973);;
+}
+
+.registration-form button {     /* regisztrációs gomb */
+
+    width: 100%;
+    background: rgba(255, 255, 255, 0.973);
+    color: rgba(194, 11, 179, 0.897);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registration-form button:hover {
+    background: rgba(255, 255, 255, 0.973);
+}
+
+.registration-form .error-message { /* hibaüzenet színe és megjelenése */
+    color: rgba(194, 11, 179, 0.897);;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* üdvözlő üzenet */
+.welcome {
+    background-color: rgba(219, 55, 206, 0.418);
+    padding: 15px;
+    border-radius: 70px;
+    margin: 1%;
+}
+
+/* keresési mező kinézete*/
+.search-input {
+    width: calc(100% - 30px);
+    height: 40px;
+    padding: 0 15px;
+    font-size: 16px;
+    border: 1px solid rgba(194, 11, 179, 0.897);;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* keresés gomb */
+.search-btn {
+    background-color: rgba(255, 255, 255, 0.973);
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: rgba(194, 11, 179, 0.897);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: rgba(194, 11, 179, 0.897);
+}
+
+.search-btn:active { /* keresés gomb aktív állapotának kinézete */
+    background-color: rgba(194, 11, 179, 0.897);
+    box-shadow: 0 2px #666666;
+}
+
+.search-list-view {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* új elemek közti margó */
+.storage-list-view {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* új tárolók */
+.storage-item {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: rgba(194, 11, 179, 0.897);
+}
+
+/* új tárolók listája cím rész */
+.storage-item-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* lista részletei */
+.storage-item-details {
+    font-size: 14px;
+    color: #666666;
+}
+
+/* új tárolók- gomb */
+.create-storage-btn {
+    background-color: rgba(194, 11, 179, 0.897);
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.create-storage-btn:hover {
+    background-color: rgba(194, 11, 179, 0.897);
+}
+
+.create-storage-btn:active {
+    background-color: rgba(194, 11, 179, 0.897);
+    box-shadow: 0 2px #666666;
+}
+
+.collapse:not(.show) {
+    display:flex !important;
+    margin: 20px;
+}
+
+footer { /*lábléc*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(194, 11, 179, 0.555);
+    color: rgb(235, 228, 234);
+    text-align: center;
+    padding: 20px 0;
+    height: 7%;}

@@ -1,0 +1,12 @@
+{
+    "db": {
+      "dbtype": "mysql",
+      "dbhost": "localhost",
+      "dbuser": "root",
+      "dbpassword": "",
+      "dbname": "padlas"
+    },
+    "log": {
+      "errorlog": "logs/error.log"
+    }
+  }

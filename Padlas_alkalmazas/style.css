@@ -1,0 +1,22 @@
+/*IDE KELL MEGÍRNI AZ EGÉSZ PROJEKTNEK A STÍLUSÁT. 
+AZ ÖSSZES OLDAL CSS-E IDE KERÜLJÖN, EBBE AZ EGY FÁJLBA.*/
+body{
+    background-image: url(../img/background.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.searchform{
+    margin-top: 50px;
+    background-color: #3AD8AC;
+    opacity: 0.897;
+    padding: 30px;
+    border-radius: 70px;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: rgba(194, 11, 179, 0.418);
+}

@@ -1,0 +1,18 @@
+.searchform{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(194, 11, 179, 0.418);
+    opacity: 0.897;
+    padding: 30px;
+    border-radius: 70px;
+    
+}
+
+/*.container-searchform{
+    background-color: rgba(194, 11, 179, 0.418);
+    padding: 15px;
+    border-radius: 70px;}*/
+
+.collapse:not(.show) {
+    display:flex !important;
+}
